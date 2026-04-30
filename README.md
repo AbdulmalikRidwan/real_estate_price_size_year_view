@@ -18,6 +18,23 @@ Predicts house prices using **three features**: size, year, and sea view.
 - Actual vs Predicted: Model accuracy
 - Residual plot: Error analysis
 
+## Visualizations
+
+### Correlation Heatmap
+*Shows how features relate to price*
+
+![Correlation Heatmap](heatmap.png)
+
+### Actual vs Predicted Prices
+*Points close to the diagonal line = accurate predictions*
+
+![Actual vs Predicted](actual_vs_predicted.png)
+
+### Price by View
+*Sea view houses cost ~$56k more*
+
+![Price by View](boxplot_view.png)
+
 ## Sample Prediction
 - 1,500 sq ft, year 2015, with sea view → **$472,041**
 
